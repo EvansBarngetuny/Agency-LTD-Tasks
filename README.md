@@ -9,3 +9,7 @@ In this implementation, we initialize the minimun number(min) variable with the 
 
 task 3: mySQL database employees table query 
 This query uses the SELECT statement to retrieve all columns (*) from the "employees" table. The WHERE clause is used to specify the conditions for filtering the data. In this case, the conditions are that the "age" column should be greater than 30 (age > 30) and the "salary" column should be greater than $50,000 (salary > 50000).
+
+task 4. Identification and correction of a bug.
+The bug in the code is caused by integer division in the line double average = total / numbers.length;. Since total is an integer and numbers.length is also an integer, the division will be performed as integer division, resulting in a truncated quotient.
+In the corrected code, I cast the total variable to a double before dividing it by numbers.length. This ensures that the division is performed as floating-point division, resulting in the correct average.
