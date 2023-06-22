@@ -6,3 +6,6 @@ The program follows a modular structure with clear variable names and comments t
 
 task 2: Finding Largest Difference between any two numbers in the list.
 In this implementation, we initialize the minimun number(min) variable with the first element of the list. Then, we iterate through the list starting from the second element. For each element, we update the minimun number(min) and calculate the difference between the currentNumb and min. Finally, we update the maxDiff if the calculated difference is greater than the current maxDiff. After iterating through the entire list, we return the maxDiffer.
+
+task 3: mySQL database employees table query 
+This query uses the SELECT statement to retrieve all columns (*) from the "employees" table. The WHERE clause is used to specify the conditions for filtering the data. In this case, the conditions are that the "age" column should be greater than 30 (age > 30) and the "salary" column should be greater than $50,000 (salary > 50000).
